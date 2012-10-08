@@ -2,16 +2,25 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Function expressions - Part 5 - ECP</title>
+		<title>Part 5 - 3 - Function return values</title>
 	</head>
 	<body>
-		<div id="target"/>
+        <p>Edit /part-5/3.js and add a function called is_correct_guess() which accepts a guess and a target, then returns true if they're equal.</p>
+		<div id="feedback">
+			<p>Take a guess...</p>
+		</div>
+		<form>
+			<label for="guess">Guess:</label>
+			<input id="guess" type="text" placeholder="i.e. 10">
+			<button type="submit">Guess</button>
+		</form>
 
 		<!-- These are provided for you -->
 		<script type="text/javascript" src="../externals/jquery-1.7.2.js"></script>
 		<script type="text/javascript" src="../externals/support.js"></script>
 
 		<!-- Include JavaScript for this page here -->
-		<script type="text/javascript" src="3.js"></script>	
+    	<script type="text/javascript" src="3.js"></script>
+		<script type="text/javascript" src="3-support.js"></script>
 	</body>
 </html>

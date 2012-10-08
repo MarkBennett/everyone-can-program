@@ -1,19 +1,23 @@
-// Define your greeter() function here
-//
-// It should accept a name, and a callback function to call with your message of greeting.
-//
-// See /part-5/3.js for some insipiration if you're stuck.
+// We've written these special function you should call your function with
+function maybe(name) {
+    window.maybe_called = true;
+    say("Call " + name + " maybe?");
+}
+function definately(name) {
+    window.definately_called = true;
+    say("Call " + name + " definately!");
+}
 
 
-// Look below here for examples of calling your greeter with different callbacks
-greeter("Bob", function(msg) {
-	console.log(msg)
-});
 
-greeter("Sarah", function(msg) {
-	say(msg);
-});
 
-greeter("Kyle", function(msg) {
-	alert(msg);
-});
+// Define your call_me() function below, it should accept a function as an argument
+
+
+
+
+// Now call your call_me() function with the maybe function we provided.
+// What does it say?
+
+// Try calling your function again with the definately function.
+// What does it say now? Is it different than before?
