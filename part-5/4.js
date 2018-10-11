@@ -3,9 +3,9 @@ function maybe(name) {
     window.maybe_called = true;
     say("Call " + name + " maybe?");
 }
-function definately(name) {
-    window.definately_called = true;
-    say("Call " + name + " definately!");
+function definitely(name) {
+    window.definitely_called = true;
+    say("Call " + name + " definitely!");
 }
 
 
